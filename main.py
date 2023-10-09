@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 from dotenv import load_dotenv
+load_dotenv()
 
 from app.routes import webhook, test
 
 app = FastAPI()
-load_dotenv()
 
 app.include_router(webhook.router)
 app.include_router(test.router)
