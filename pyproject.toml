@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "stocknotification"
+version = "0.1.0"
+description = ""
+authors = ["brad_fang <brad_fang@gss.com.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+line-bot-sdk = "^3.5.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
